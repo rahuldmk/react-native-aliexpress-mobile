@@ -7,7 +7,7 @@ const colors={
     orange:'#ff6600',
     blue:'#157dfa',
     
-    background_app:'#eeeeee',
+    background_app:'#f7f7f7',
     inactive_tab:'#444444',
     active_tab:'#e52e04',
     navigation_bar:'#fafafa',

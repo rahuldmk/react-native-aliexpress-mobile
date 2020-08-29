@@ -1,3 +1,2 @@
-import themes from './themes';
-
-export default {themes};
+import  images  from './images';
+export { images };
