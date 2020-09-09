@@ -7,21 +7,17 @@
  */
 
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet,Text,View } from 'react-native';
 import { Splash } from './src/screen/index';
+import AppNavigator  from './src/navigation/AppNavigator';
 
 const App: () => React$Node = () => {
 
   state = {
-    isLoadingComplete: true
+    isLoadingComplete: false
   }
 
-  if (state.isLoadingComplete) {
-    return (
-      <Splash />
-    );
-  }
-
+  return state.isLoadingComplete ? (<Splash />) : (<AppNavigator />); 
 
 };
 

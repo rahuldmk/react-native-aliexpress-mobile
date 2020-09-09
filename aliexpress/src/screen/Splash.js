@@ -1,11 +1,11 @@
 import React from 'react';
-import { Image, StyleSheet, View, Text } from 'react-native';
+import { Image, StyleSheet, View } from 'react-native';
 import * as themes from '../components/theme';
 import { images } from '../constants/index';
 
 const styles = StyleSheet.create({
     logo: {
-        resizeMode: 'center',
+        resizeMode: 'cover',
     },
     container : {
         flex: 1,
